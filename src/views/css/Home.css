@@ -53,6 +53,6 @@
     font-weight: 600;
   }
   .home .content {
-    background-image: url(https://res.cloudinary.com/zaid/image/upload/v1606365865/Myblog-1/11_h3qw95.jpg);
+    background-image: url(/src//assests/BG2.jpg);
   }
 }
