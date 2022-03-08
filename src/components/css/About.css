@@ -1,5 +1,4 @@
 #about {
-  min-height: 500px;
   padding: 5% 10%;
 }
 .about-wrap {
@@ -18,4 +17,22 @@
   margin: auto 3%;
   width: 100vw;
   text-align: justify;
+}
+
+@media screen and (max-width: 955px) {
+  #about {
+    padding: 0;
+  }
+  .about-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .about-left {
+    background-color: black;
+    background-color: #f7e679;
+    width: 100vw;
+    padding: 7%;
+  }
 }
