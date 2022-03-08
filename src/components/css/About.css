@@ -1,0 +1,18 @@
+#about .card,#mywork .work-content .card,#about .card-img{
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+#about .colour{
+    background-color: #313336;
+}
+#mywork .card-body,#about .card-body{
+    padding: 10%;
+}
+#about .card-text,#about .card-title{
+    color: white;
+}
+#about .card #caption{
+    font-family: 'Satisfy', cursive;
+    color: white;
+}
