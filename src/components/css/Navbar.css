@@ -40,7 +40,7 @@ nav {
 }
 .nav-page .close-btn {
   position: absolute;
-  right: 0;
+  left: 0;
   top: 0;
   margin: 10px 30px;
   cursor: pointer;
@@ -51,5 +51,5 @@ nav {
   cursor: pointer;
 }
 .nav-page p:hover {
-    filter: opacity(70%);
+  filter: opacity(70%);
 }
