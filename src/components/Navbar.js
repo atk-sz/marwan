@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./css/Navbar.css";
 
 const Navbar = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   const openNav = () => {
     setShow(true);

@@ -1,7 +1,9 @@
 .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 1;
   padding: 0;
+  left: 0;
+  top: 0;
 }
 .znav div {
   height: 4px;
@@ -40,7 +42,7 @@ nav {
   align-items: center;
 }
 .nav-page .close-btn {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   margin: 10px 30px;
