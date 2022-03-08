@@ -6,7 +6,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(/src/assests/BG.jpg);
+  background-image: url(/src/assests/BG.png);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -53,6 +53,6 @@
     font-weight: 600;
   }
   .home .content {
-    background-image: url(/src//assests/BG2.jpg);
+    background-image: url(/src//assests/BG2.png);
   }
 }

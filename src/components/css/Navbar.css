@@ -1,6 +1,7 @@
 .navbar {
   position: absolute;
   z-index: 1;
+  padding: 0;
 }
 .znav div {
   height: 4px;
