@@ -6,6 +6,16 @@
   /* border-radius: 50px; */
   background: #f7e679;
   box-shadow: 20px 20px 60px #d4c667, -20px -20px 60px #fdfd92;
+  /* padding: 5% 7%; */
   display: flex;
-  padding: 5% 7%;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto 3%;
+  width: 100vw;
+  text-align: justify;
 }

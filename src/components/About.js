@@ -17,7 +17,7 @@ const About = () => {
             reiciendis perferendis laborum aspernatur, repellat ea harum ex!
           </h4>
         </div>
-        <div className="about-mid">
+        <div className="about-right">
           <img className="card-img" src={MyPic} alt="MyPic" />
         </div>
       </div>
