@@ -2,9 +2,9 @@ import React from "react";
 import MyPic from "../assests/hokkah.jpg";
 import "./css/About.css";
 
-const About = () => {
+const About = ({ about }) => {
   return (
-    <div id="about">
+    <div ref={about} id="about">
       <div className="about-wrap">
         <div className="about-left">
           <h4>

@@ -1,17 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import "./css/Navbar.css";
 
-const Navbar = () => {
-  const [show, setShow] = useState(true);
-
-  const openNav = () => {
-    setShow(true);
-  };
-
-  const closeNav = () => {
-    setShow(false);
-  };
-
+const Navbar = ({ show, openNav, closeNav, scrollToHome, scrollToAbout }) => {
   return (
     <div className="navbar">
       {show ? (
@@ -19,8 +9,8 @@ const Navbar = () => {
           <h1 className="close-btn" onClick={closeNav}>
             &times;
           </h1>
-          <p>Home</p>
-          <p>About me</p>
+          <p onClick={scrollToHome}>Home</p>
+          <p onClick={scrollToAbout}>About me</p>
           <p>Social Media</p>
           <p>Feedback</p>
         </div>
