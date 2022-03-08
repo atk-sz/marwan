@@ -9,7 +9,8 @@
 }
 body{
     text-align: center;
-    background-color: #ddd;
+    /* background-color: #ec8923; */
+    background-color: rgb(253, 235, 133);
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald','Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;

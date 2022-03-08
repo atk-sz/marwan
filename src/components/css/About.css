@@ -1,18 +1,11 @@
-#about .card,#mywork .work-content .card,#about .card-img{
-    border: none;
-    border-radius: 0;
-    padding: 0;
+#about {
+  min-height: 500px;
+  padding: 5% 10%;
 }
-#about .colour{
-    background-color: #313336;
-}
-#mywork .card-body,#about .card-body{
-    padding: 10%;
-}
-#about .card-text,#about .card-title{
-    color: white;
-}
-#about .card #caption{
-    font-family: 'Satisfy', cursive;
-    color: white;
+.about-wrap {
+  /* border-radius: 50px; */
+  background: #f7e679;
+  box-shadow: 20px 20px 60px #d4c667, -20px -20px 60px #fdfd92;
+  display: flex;
+  padding: 5% 7%;
 }
