@@ -42,6 +42,20 @@
   font-weight: 600;
   display: block;
 }
+@media screen and (max-width: 1080px) {
+  .home .content {
+    background-image: url(/src//assests/BG1.png);
+  }
+}
+@media screen and (max-width: 893px) {
+  .home .content h1 {
+    font-size: 45px;
+    letter-spacing: 7px;
+  }
+  .home .content {
+    background-image: url(/src//assests/BG2.png);
+  }
+}
 @media screen and (max-width: 513px) {
   .home .content h1 {
     font-size: 40px;
@@ -53,6 +67,6 @@
     font-weight: 600;
   }
   .home .content {
-    background-image: url(/src//assests/BG2.png);
+    background-image: url(/src//assests/BG3.png);
   }
 }
