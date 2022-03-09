@@ -1,7 +1,14 @@
 import React from "react";
 import "./css/Navbar.css";
 
-const Navbar = ({ show, openNav, closeNav, scrollToHome, scrollToAbout }) => {
+const Navbar = ({
+  show,
+  openNav,
+  closeNav,
+  scrollToHome,
+  scrollToAbout,
+  scrollToSocial,
+}) => {
   return (
     <div className="navbar">
       {show ? (
@@ -11,7 +18,7 @@ const Navbar = ({ show, openNav, closeNav, scrollToHome, scrollToAbout }) => {
           </h1>
           <p onClick={scrollToHome}>Home</p>
           <p onClick={scrollToAbout}>About me</p>
-          <p>Social Media</p>
+          <p onClick={scrollToSocial}>Social Media</p>
           <p>Feedback</p>
         </div>
       ) : (

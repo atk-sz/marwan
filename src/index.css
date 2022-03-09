@@ -1,17 +1,26 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
-*{
-    font-family: 'Poppins',sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-body{
-    text-align: center;
-    /* background-color: #ec8923; */
-    background-color: rgb(253, 235, 133);
+body {
+  text-align: center;
+  background-color: rgb(253, 235, 133);
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Oswald','Raleway',"Helvetica Neue", Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", "Raleway", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+}
+a {
+  color: rgb(248, 244, 223);
+  text-decoration: none;
 }
