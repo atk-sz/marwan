@@ -58,14 +58,14 @@ const Feedback = ({ feedback }) => {
           <div className="feedback-left-bottom">
             <div className="gmail-div">
               <a
-                href="https://www.linkedin.com/"
+                href="mailto:mohammed.marwan.125@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <p>
                   <i class="fa-solid fa-envelope-open-text"></i>
                 </p>
-                <p>mohammed.marwan.125@gmail.com</p>
+                <p className="email-id">mohammed.marwan.125@gmail.com</p>
               </a>
             </div>
           </div>
