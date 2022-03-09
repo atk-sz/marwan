@@ -8,6 +8,7 @@ const Navbar = ({
   scrollToHome,
   scrollToAbout,
   scrollToSocial,
+  scrollToFeedback,
 }) => {
   return (
     <div className="navbar">
@@ -19,7 +20,7 @@ const Navbar = ({
           <p onClick={scrollToHome}>Home</p>
           <p onClick={scrollToAbout}>About me</p>
           <p onClick={scrollToSocial}>Social Media</p>
-          <p>Feedback</p>
+          <p onClick={scrollToFeedback}>Feedback</p>
         </div>
       ) : (
         <nav id="nav-button" className="znav" onClick={openNav}>

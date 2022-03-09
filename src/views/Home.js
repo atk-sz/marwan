@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import { About, Landing, Navbar, SocialMedia } from "../components";
+import { About, Landing, Navbar, SocialMedia, Feedback } from "../components";
 // import { Header } from '../components';
 import "./css/Home.css";
 
@@ -8,6 +8,7 @@ const Home = () => {
   const home = useRef(null);
   const about = useRef(null);
   const social = useRef(null);
+  const feedback = useRef(null);
 
   const openNav = () => {
     setShow(true);
@@ -32,6 +33,11 @@ const Home = () => {
     setShow(false);
   };
 
+  const scrollToFeedback = () => {
+    feedback.current.scrollIntoView();
+    setShow(false);
+  };
+
   return (
     <div>
       <Navbar
@@ -41,10 +47,12 @@ const Home = () => {
         scrollToHome={scrollToHome}
         scrollToAbout={scrollToAbout}
         scrollToSocial={scrollToSocial}
+        scrollToFeedback={scrollToFeedback}
       />
       <Landing home={home} />
       <About about={about} />
-      <SocialMedia social={social} />
+      {/* <SocialMedia social={social} /> */}
+      <Feedback feedback={feedback} />
     </div>
   );
 };

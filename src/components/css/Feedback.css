@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
+#feedback {
+  margin: 0 10% 5% 10%;
+  background: #f7e679;
+  box-shadow: 20px 20px 60px #d4c667, -20px -20px 60px #fdfd92;
+  height: 270px;
+}
+#feedback .container {
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+}
+#feedback .feedback-left {
+  background-color: rgb(202, 205, 50);
+  width: 50%;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#feedback .feedback-left h4 {
+  font-family: "Hubballi", cursive;
+}
+.feedback-left-top,
+.feedback-left-bottom .gmail-div a {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.instagram-div,
+.facebook-div,
+.twitter-div,
+.linkedin-div,
+.youtube-div,
+.gmail-div {
+  padding: 5px;
+  display: inline-block;
+  font-size: 30px;
+  text-align: center;
+  transform: translate(0, 0);
+}
+.fa-instagram:hover {
+  color: #ff68a2;
+}
+.fa-twitter:hover {
+  color: #91d3ff;
+}
+.fa-facebook-f:hover {
+  color: #7790ff;
+}
+.fa-linkedin:hover {
+  color: #647daa;
+}
+.fa-youtube:hover {
+  color: #e03030;
+}
+.gmail-div {
+  font-size: 24px;
+}
+.gmail-div a p {
+  margin: 0 5px;
+}
+.gmail-div a:hover {
+  color: #ff9100;
+}
+.qr-code {
+  position: relative;
+  width: 200px;
+}
